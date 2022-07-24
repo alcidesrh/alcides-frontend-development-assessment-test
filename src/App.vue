@@ -62,7 +62,16 @@
     </v-navigation-drawer>
     <v-app-bar app color="indigo" dark>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title>Alcides Development Assessment Test</v-toolbar-title>
+      <v-toolbar-title class="tw-w-full"
+        >Alcides Development Assessment Test
+        <a
+          class="tw-float-right tw-cursor-pointer tw-text-white"
+          target="_blank"
+          href="/api"
+          style="color: white"
+          >Api Rest <v-icon>mdi-open-in-new</v-icon></a
+        >
+      </v-toolbar-title>
     </v-app-bar>
 
     <v-main>

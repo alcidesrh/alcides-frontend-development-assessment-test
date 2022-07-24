@@ -1,24 +1,12 @@
-# alcides-frontend--development-assessment-test
+# Frontend Prueba de Evaluación de Desarrollo
 
-## Project setup
-```
-npm install
-```
+## Instalación
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+1. Ejecutar `npm install`
+2. Ejecutar `yarn serve`.
+3. Abrir en el navegador `http://localhost:8080`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Tecnología usada
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Vue [vue](https://vuejs.org/)
+- Vuetifyjs [vuetifyjs](https://vuetifyjs.com/en/)
